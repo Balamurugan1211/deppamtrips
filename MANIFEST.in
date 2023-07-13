@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include deppamtrips *.css
+recursive-include deppamtrips *.csv
+recursive-include deppamtrips *.html
+recursive-include deppamtrips *.ico
+recursive-include deppamtrips *.js
+recursive-include deppamtrips *.json
+recursive-include deppamtrips *.md
+recursive-include deppamtrips *.png
+recursive-include deppamtrips *.py
+recursive-include deppamtrips *.svg
+recursive-include deppamtrips *.txt
+recursive-exclude deppamtrips *.pyc
